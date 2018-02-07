@@ -33,8 +33,14 @@
 * [CodeFights](https://codefights.com/)
 * [Kattis](https://open.kattis.com/)
 * [HackerEarth](https://www.hackerearth.com)
+* [Codility](https://codility.com/programmers/lessons/1-iterations/)
+* [Code Forces](http://codeforces.com/)
+* [Code Chef](https://www.codechef.com/)
+* [Sphere Online Judge - SPOJ](http://www.spoj.com/)
+* [InterviewBit](https://www.interviewbit.com/)
 
 ## 在线面试编程
+* [Pramp](https://www.pramp.com/ref/gt4-cn)
 * [Gainlo](http://www.gainlo.co/#!/)
 * [Refdash](https://refdash.com/)
 
@@ -60,7 +66,7 @@
   * 移除: `O(1)`
 
 ### Queue
- * 队列是元素的集合，其包含了两个基本操作：enqueue 操作可以用于将元素插入到队列中，而 dequeeu 操作则是将元素从队列中移除。
+ * 队列是元素的集合，其包含了两个基本操作：enqueue 操作可以用于将元素插入到队列中，而 dequeue 操作则是将元素从队列中移除。
  * 遵循先入先出原则 (FIFO)。
  * 时间复杂度:
   * 索引: `O(n)`
@@ -112,11 +118,9 @@
 ### Heap
 * 堆是一种特殊的基于树的满足某些特性的数据结构，整个堆中的所有父子节点的键值都会满足相同的排序条件。堆更准确地可以分为最大堆与最小堆，在最大堆中，父节点的键值永远大于或者等于子节点的值，并且整个堆中的最大值存储于根节点；而最小堆中，父节点的键值永远小于或者等于其子节点的键值，并且整个堆中的最小值存储于根节点。
 * 时间复杂度:
-  * 访问: `O(log(n))`
-  * 搜索: `O(log(n))`
+  * 访问最大值 / 最小值: `O(1)`
   * 插入: `O(log(n))`
-  * 移除: `O(log(n))`
-  * 移除最大值 / 最小值: `O(1)`
+  * 移除最大值 / 最小值: `O(log(n))`
 
 <img src="/Images/heap.png?raw=true" alt="Max Heap" width="400" height="500">
 

@@ -8,6 +8,7 @@
 - [简体中文](./README-zh-cn.md)
 
 ## Table of Contents
+- [Articles](#articles)
 - [Online Judges](#online-judges)
 - [Live Coding Practice](#live-coding-practice)
 - [Data Structures](#data-structures)
@@ -19,6 +20,9 @@
 - [Interview Books](#interview-books)
 - [Computer Science News](#computer-science-news)
 - [Directory Tree](#directory-tree)
+
+## Articles
+* [Starting Work](https://medium.com/@Naughton/starting-work-b06e10f6007e)
 
 ## Online Judges
 * [LeetCode](https://leetcode.com/)
@@ -32,8 +36,10 @@
 * [Code Forces](http://codeforces.com/)
 * [Code Chef](https://www.codechef.com/)
 * [Sphere Online Judge - SPOJ](http://www.spoj.com/)
+* [InterviewBit](https://www.interviewbit.com/)
 
 ## Live Coding Practice
+* [Pramp](https://www.pramp.com/ref/gt4)
 * [Gainlo](http://www.gainlo.co/#!/)
 * [Refdash](https://refdash.com/)
 
@@ -130,11 +136,9 @@ A heap can be classified further as either a "max heap" or a "min heap". In a ma
 than or equal to those of the children and the highest key is in the root node. In a min heap, the keys of parent nodes are less than
 or equal to those of the children and the lowest key is in the root node
 * Time Complexity:
- * Access: `O(log(n))`
- * Search: `O(log(n))`
+ * Access Max / Min: `O(1)`
  * Insert: `O(log(n))`
- * Remove: `O(log(n))`
- * Remove Max / Min: `O(1)`
+ * Remove Max / Min: `O(log(n))`
 
 <img src="/Images/heap.png?raw=true" alt="Max Heap" width="400" height="500">
 
@@ -278,7 +282,7 @@ or equal to those of the children and the lowest key is in the root node
     * Given a target amount V cents and a list of denominations of n coins, i.e. we have coinValue[i] (in cents) for coin types i from [0...n - 1],
       what is the minimum number of coins that we must use to represent amount V? Assume that we have an unlimited supply of coins of any type
     * Coins - Penny (1 cent), Nickel (5 cents), Dime (10 cents), Quarter (25 cents)
-    * Assume V = 43. We can use the Greedy algorithm of continuously selecting the largest coin denomination less than or equal to V, subtract that
+    * Assume V = 41. We can use the Greedy algorithm of continuously selecting the largest coin denomination less than or equal to V, subtract that
       coin's value from V, and repeat.
     * V = 41 | 0 coins used
     * V = 16 | 1 coin used (41 - 25 = 16)
